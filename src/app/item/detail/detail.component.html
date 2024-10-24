@@ -1,1 +1,26 @@
-<p>detail works!</p>
+<div class="row no-scroll">
+    <div class="col-md-4"></div>
+    <div class="col-md-4">
+        <div class="container">
+            <h2 class="text-center mt-5 mb-5">
+                Item Details
+            </h2>
+            <div class="card">
+                <div class="card-header">
+                    <a class="btn btn-sm btn-primary" routerLink="/items/overview">All Items</a>
+                </div>
+                <div class="card-body">
+                    <b class="text-nuted">Title:</b>
+                    <p>{{ item.title }}</p>
+                    <b class="text-nuted">Description:</b>
+                    <p>{{ item.description }}</p>
+                    <b class="text-nuted">Created At:</b>
+                    <p>{{ item.createdAt }}</p>
+                    <b class="text-nuted">Updated At:</b>
+                    <p>{{ item.updatedAt }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4"></div>
+</div>
